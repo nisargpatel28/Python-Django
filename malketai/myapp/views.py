@@ -9,7 +9,6 @@ def index(request):
     users = User.objects.all()
     context = {'users': users}
     return render(request, 'users/index.html', context)
-    # return HttpResponse("Jay Ganesh")
 
 # This is home page view function
 
