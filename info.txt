@@ -6,3 +6,5 @@ git commit -m "Fix bug in user profile
 
 Co-authored-by: Tarj Mehta <tarj.mehta@icloud.com>
 Co-authored-by: Nisarg Patel <patelnisarg.pn@gmail.com>"
+
+Force push method added
