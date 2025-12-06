@@ -1,2 +1,8 @@
 Virtualenv location: C:\Users\aptpa\.virtualenvs\pythonm-0o86xGTm  
 Added Co-author: Tarj Mehta on date 06th December, 2025
+For collaboration purpose - initial step 
+
+git commit -m "Fix bug in user profile
+
+Co-authored-by: Tarj Mehta <tarj.mehta@icloud.com>
+Co-authored-by: Nisarg Patel <patelnisarg.pn@gmail.com>"
