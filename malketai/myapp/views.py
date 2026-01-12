@@ -10,7 +10,19 @@ def admin_login(request):
     try:
         if request.user.is_authenticated:
             return redirect('index')
-        
+            
+        #messages.info(request, 'Account not found')
+        # if request.method == 'POST':
+        #     username = request.POST.get('username')
+        #     password = request.POST.get('password')
+        #     user = authenticate(request, username=username, password=password)
+        #     if user is not None:
+        #         login(request, user)
+        #         return redirect('index')
+        #     else:
+        #         return HttpResponse("Invalid credentials")
+        # return render(request, 'users/admin_login.html')
+
         if request.method == 'POST':
             username = request.POST.get('username')
             password = request.POST.get('password')
